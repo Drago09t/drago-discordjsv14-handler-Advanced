@@ -25,7 +25,7 @@ An advanced Discord bot built with `discord.js` v14, integrated with MongoDB usi
 1. **Clone the Repository**:
 
     ```bash
-    git clone https://github.com/yourusername/advanced-discord-bot.git
+    git clone https://github.com/Drago09t/drago-discordjsv14-handler-Advanced.git
     cd advanced-discord-bot
     ```
 
