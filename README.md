@@ -123,55 +123,7 @@ Logs are recorded in the `logs/` folder:
     ```bash
     npm start
     ```
-## FIles Stucture
-```bash
-advanced-discord-bot/
-│
-├── commands/                    # Command files (both slash & prefix)
-│   ├── admin/                   # Admin-specific commands (e.g., maintenance, premium)
-│   │   ├── maintenance.js       # Command to toggle maintenance mode
-│   │   └── premium.js           # Command to manage premium status for users
-│   └── general/                 # General commands (e.g., help, ping)
-│       ├── help.js              # Help command to list commands
-│       ├── ping.js              # Simple ping command
-│       ├── stats.js             # Shows bot stats (servers, users, commands loaded)
-│       ├── testButton.js        # Example command that sends a button
-│       └── testMenu.js          # Example command that sends a select menu
-│
-├── events/                      # Event handlers for various Discord events
-│   ├── guildCreate.js           # Logs and handles when the bot joins a new server
-│   ├── guildDelete.js           # Logs and handles when the bot is removed from a server
-│   ├── interactionCreate.js     # Handles command, button, and menu interactions
-│   ├── ready.js                 # Logs the bot's stats when it starts
-│   └── messageCreate.js         # Handles messages for prefix commands
-│
-├── interactions/                # Interaction handlers (buttons & menus)
-│   ├── buttons/                 # Button interaction handlers
-│   │   └── exampleButton.js     # Example button interaction handler
-│   ├── menus/                   # Select menu interaction handlers
-│   │   └── exampleMenu.js       # Example select menu interaction handler
-│   └── interactionHandler.js    # Loads all button and menu interactions dynamically
-│
-├── logs/                        # Log files for tracking activities
-│   ├── commands.log             # Logs of all commands used by users
-│   └── guilds.log               # Logs of guild joins and leaves
-│
-├── schemas/                     # Mongoose schemas for database models
-│   ├── userSchema.js            # Tracks user data, including premium status
-│   ├── guildSchema.js           # Tracks server-specific settings (e.g., log channels)
-│   └── premiumSchema.js         # Tracks premium status for users and servers
-│
-├── handlers/                    # Handlers for commands, events, and interactions
-│   ├── commandHandler.js        # Dynamically loads and registers all commands
-│   ├── eventHandler.js          # Dynamically loads and registers all events
-│   └── interactionHandler.js    # Dynamically loads button and select menu interactions
-│
-├── index.js                     # Main bot file that initializes the client and connects to Discord
-├── config.json                  # Configuration file for bot settings (e.g., prefix, maintenance)
-├── .env                         # Environment variables for sensitive data (e.g., token, MongoDB URI)
-├── .gitignore                   # Specifies files and directories to be ignored by Git
-├── LICENSE                      # License file for your project (e.g., MIT)
-└── README.md                    # Detailed documentation for setup, usage, and contribution```
+
 
 ### Adding Buttons and Menus
 
@@ -222,5 +174,57 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For help and support, you can reach out through the following:
 
-- **Discord Server**: [Your Discord Server Invite Link](https://discord.gg/yourinvite)
-- **Issues**: Report bugs or request features in the [GitHub Issues](https://github.com/yourusername/advanced-discord-bot/issues) section.
+- **Discord Server**: [Your Discord Server Invite Link]([https://discord.gg/yourinvite](https://discord.gg/RCNWYTaatv))
+- **Issues**: Report bugs or request features in the [GitHub Issues](https://github.com/Drago09t/drago-discordjsv14-handler-Advanced/issues) section.
+
+### FIles structure
+
+```bash
+advanced-discord-bot/
+│
+├── commands/                    # Command files (both slash & prefix)
+│   ├── admin/                   # Admin-specific commands (e.g., maintenance, premium)
+│   │   ├── maintenance.js       # Command to toggle maintenance mode
+│   │   └── premium.js           # Command to manage premium status for users
+│   └── general/                 # General commands (e.g., help, ping)
+│       ├── help.js              # Help command to list commands
+│       ├── ping.js              # Simple ping command
+│       ├── stats.js             # Shows bot stats (servers, users, commands loaded)
+│       ├── testButton.js        # Example command that sends a button
+│       └── testMenu.js          # Example command that sends a select menu
+│
+├── events/                      # Event handlers for various Discord events
+│   ├── guildCreate.js           # Logs and handles when the bot joins a new server
+│   ├── guildDelete.js           # Logs and handles when the bot is removed from a server
+│   ├── interactionCreate.js     # Handles command, button, and menu interactions
+│   ├── ready.js                 # Logs the bot's stats when it starts
+│   └── messageCreate.js         # Handles messages for prefix commands
+│
+├── interactions/                # Interaction handlers (buttons & menus)
+│   ├── buttons/                 # Button interaction handlers
+│   │   └── exampleButton.js     # Example button interaction handler
+│   ├── menus/                   # Select menu interaction handlers
+│   │   └── exampleMenu.js       # Example select menu interaction handler
+│   └── interactionHandler.js    # Loads all button and menu interactions dynamically
+│
+├── logs/                        # Log files for tracking activities
+│   ├── commands.log             # Logs of all commands used by users
+│   └── guilds.log               # Logs of guild joins and leaves
+│
+├── schemas/                     # Mongoose schemas for database models
+│   ├── userSchema.js            # Tracks user data, including premium status
+│   ├── guildSchema.js           # Tracks server-specific settings (e.g., log channels)
+│   └── premiumSchema.js         # Tracks premium status for users and servers
+│
+├── handlers/                    # Handlers for commands, events, and interactions
+│   ├── commandHandler.js        # Dynamically loads and registers all commands
+│   ├── eventHandler.js          # Dynamically loads and registers all events
+│   └── interactionHandler.js    # Dynamically loads button and select menu interactions
+│
+├── index.js                     # Main bot file that initializes the client and connects to Discord
+├── config.json                  # Configuration file for bot settings (e.g., prefix, maintenance)
+├── .env                         # Environment variables for sensitive data (e.g., token, MongoDB URI)
+├── .gitignore                   # Specifies files and directories to be ignored by Git
+├── LICENSE                      # License file for your project (e.g., MIT)
+└── README.md                    # Detailed documentation for setup, usage, and contribution```
+
