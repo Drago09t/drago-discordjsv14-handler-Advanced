@@ -124,7 +124,8 @@ Logs are recorded in the `logs/` folder:
     npm start
     ```
 ## FIles Stucture
-```advanced-discord-bot/
+```bash
+advanced-discord-bot/
 │
 ├── commands/                    # Command files (both slash & prefix)
 │   ├── admin/                   # Admin-specific commands (e.g., maintenance, premium)
