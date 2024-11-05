@@ -173,8 +173,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For help and support, you can reach out through the following:
 
-- **Discord Server**: [Your Discord Server Invite Link](https://discord.gg/yourinvite)
-- **Issues**: Report bugs or request features in the [GitHub Issues](https://github.com/yourusername/advanced-discord-bot/issues) section.
+- **Discord Server**: [Invite Link](https://discord.gg/RCNWYTaatv)
+- **Issues**: Report bugs or request features in the [GitHub Issues](https://github.com/Drago09t/advanced-discord-bot/issues) section.
 
 ## FIles Stucture
 ```advanced-discord-bot/
